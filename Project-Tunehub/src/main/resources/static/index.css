@@ -1,0 +1,40 @@
+body {
+	background-image:url("https://images.hdqwalls.com/download/graph-web-abstract-4k-hn-1366x768.jpg");
+    background-size: cover;
+   	font-family: Arial, sans-serif;
+    color: #23C3D2;
+    margin-top: 18%;
+ }
+ 
+ img{
+ 	height:100%;
+ 	width: 100%;
+ }
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1db954;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #1ed760;
+}

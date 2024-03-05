@@ -1,0 +1,113 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Customer Page</title>
+<link rel="stylesheet" type="text/css" th:href="@{/customerhome.css}">
+
+</head>
+<body>
+	<p> Customer Page</p>
+	
+	<form action="playsongs" >
+	<input type="submit" value="PLAY SONGS">
+	</form>
+	
+ 
+ <div th:unless="${ispremium}" class="non-premium">
+ <form action="pay" >
+	<input type="submit" value="GET PERMIUM">
+	</form>
+	<br><br>
+	
+	<form action="logout" >
+	<input type="submit" value="LOGOUT">
+	</form> 
+ </div>
+ 
+ <div th:if="${ispremium}" class="premium">
+ <table border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Artist</th>
+				<th>Genre</th>
+				<th>play</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="song:${Songs}">
+				<td th:text="${song.name}"></td>
+				<td th:text="${song.artist}">
+				<td th:text="${song.genre}"></td>
+				
+				<td>
+				<audio controls>
+				<source th:src="${song.link}">
+				</audio>
+				</td>
+			</tr>
+			
+		
+		</tbody>
+	
+	</table>
+ </div>	
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/customerhome.css}">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <p> Customer Page</p>
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content" th:unless="${ispremium}">
+            <form action="pay">
+                <input type="submit" value="GET PREMIUM">
+            </form>
+            <form action="logout">
+                <input type="submit" value="LOGOUT">
+            </form>
+        </div>
+    </div>
+    <div th:if="${ispremium}" class="premium">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Artist</th>
+                    <th>Genre</th>
+                    <th>play</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr th:each="song:${Songs}">
+                    <td class="con" th:text="${song.name}"></td>
+                    <td class="con" th:text="${song.artist}">
+                    <td class="con" th:text="${song.genre}"></td> 
+
+                    <td>
+                        <audio controls>
+                            <source th:src="${song.link}">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+

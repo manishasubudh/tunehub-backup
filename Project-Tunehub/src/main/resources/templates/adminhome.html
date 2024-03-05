@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Home</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/adminhome.css}">
+</head>
+<body>
+ <h2>Admin Home</h2>
+    <div class="container">
+        <form action="newsong" class="form">
+            <button type="submit" class="button">ADD SONGS</button><br/>
+            <label>Add Songs</label>
+        </form>
+        <form action="viewsongs" class="form">
+            
+            <button type="submit" class="button">VIEW SONGS</button><br/>
+            <label>View Songs</label>
+        </form>
+
+        <form action="createplaylists" class="form">
+            <button type="submit" class="button">CREATE PLAYLIST</button><br/>
+            <label>Create Playlist</label>
+        </form>
+
+        <form action="viewplaylists" class="form">
+            
+            <button type="submit" class="button">VIEW PLAYLIST</button><br/>
+            <label>View Playlist</label>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    background-image:url("https://similarpng.com/wp-content/uploadPngfree/thumbnail/2024/02/Business-Technology-Digital-High-Tech-World-Background.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin-top: 12%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+label {
+    color: lightsalmon;
+    font-weight: 600;
+    font-size: larger;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: #1db954;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("http://getwallpapers.com/wallpaper/full/d/a/5/380767.jpg");
+    background-size: cover;
+    margin-top: 13%;
+}
+
+.container {
+    margin: 2% auto 0px 32%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+h2 {
+    color: orange;
+    text-align:center;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+button{
+	margin-right:15%;
+}

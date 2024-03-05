@@ -1,0 +1,71 @@
+body {
+   font-family: Arial, sans-serif;
+   background-image:url("http://getwallpapers.com/wallpaper/full/d/a/5/380767.jpg");
+   background-size: cover;
+   margin: 0;
+   padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 2.2);
+    color: honeydew;
+}
+
+label {
+    display: block;
+    color: orange;
+    font-size: large;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 94.5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    resize: vertical;
+}
+  

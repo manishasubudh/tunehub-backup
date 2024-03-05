@@ -1,0 +1,94 @@
+.dropdown {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: auto;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content form {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content form input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    width: 75%;
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+.dropdown-content form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+p {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+    color: orange;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+audio {
+    width: 100%;
+}
+
+.con{
+	color: white;
+}
+
+
